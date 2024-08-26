@@ -129,6 +129,4 @@ with DAG(
 
 if __name__ == "__main__":
     logging.getLogger().setLevel(logging.INFO)
-    dotenv_path = os.path.join(os.path.dirname(__file__), '.env')
-    load_dotenv(dotenv_path)
     main()
