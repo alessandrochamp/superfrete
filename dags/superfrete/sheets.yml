@@ -1,0 +1,30 @@
+retail_sales_dataset:
+  url_key: 1bIAblAax8SY-b98Pn-YrqesMyNsmT_OTGBmTWBLHaPI
+  columns:
+    - name: transaction_id
+      type: string
+
+    - name: date
+      type: datetime
+      format: "%Y-%m-%d" 
+
+    - name: customer_id
+      type: string
+
+    - name: gender
+      type: string
+    
+    - name: age
+      type: string
+
+    - name: product_category
+      type: string
+
+    - name: quantity
+      type: string
+    
+    - name: price_per_unit
+      type: string
+
+    - name: total_amount
+      type: string

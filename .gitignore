@@ -162,3 +162,5 @@ cython_debug/
 #.idea/
 superfrete.code-workspace
 dags/financeiro/*
+.vscode/launch.json
+dags/superfrete/credentials.json

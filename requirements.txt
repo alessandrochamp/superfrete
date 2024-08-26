@@ -1,0 +1,8 @@
+pandas
+numpy
+google-cloud-bigquery
+google-auth
+gspread
+pyyaml
+python-dotenv
+apache-airflow
