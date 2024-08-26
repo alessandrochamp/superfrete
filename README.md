@@ -31,3 +31,7 @@ docker compose up
 
 Se tudo ocorrer com sucesso, acesse [airflow](http://localhost:8080/) e você verá uma tela semelhante a essa:
 ![alt text](image.png)
+
+### Variáveis de ambiente e credenciais
+As variáveis de ambiente estão no docker compose porém, o arquivo com as credenciais do bigquery, depende de uma definição de estratégia de solução em nuvem. No caso do kubernetes podemos usar variáveis de ambiente do proprio kub. Também é possivel usar soluções como Google Cloud Secret Manager ou AWS Secrets Manager.
+
